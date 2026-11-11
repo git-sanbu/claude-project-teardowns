@@ -1,0 +1,34 @@
+name: Suggest a project for teardown
+description: Propose a well-documented Claude-built project to add to the directory
+labels: ["suggest-project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting: a teardown needs an accessible artifact (repo / demo / film), a publicly described process, and sources for any numbers.
+  - type: input
+    id: project
+    attributes:
+      label: Project link
+      placeholder: https://github.com/owner/name (or demo URL + writeup link)
+    validations:
+      required: true
+  - type: textarea
+    id: how-built
+    attributes:
+      label: How was it built, per the builders?
+      description: Link the post / README section / interview that describes the process — not just the result.
+    validations:
+      required: true
+  - type: textarea
+    id: numbers
+    attributes:
+      label: Any published numbers (cost, time, tokens, model, effort)?
+      description: Include links and dates; author-reported is fine if labeled.
+  - type: textarea
+    id: takeaway
+    attributes:
+      label: What is the transferable lesson?
+      description: One or two patterns a reader could apply to their own work.
+    validations:
+      required: true

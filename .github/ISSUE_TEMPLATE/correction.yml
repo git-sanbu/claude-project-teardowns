@@ -1,0 +1,24 @@
+name: Correction
+description: Report an error in a teardown, catalog entry or playbook
+labels: ["correction"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Which page?
+      placeholder: teardowns/xyz.md (or README section)
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: What is wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source that justifies the correction
+      description: A link the maintainers can check. Numbers without sources can't be merged.
+    validations:
+      required: true
