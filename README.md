@@ -8,6 +8,12 @@ Curated around the Claude Fable 5.2 launch wave (November 2026), with room for a
 
 **Last researched: 2026-11-11.** Cost, time and star figures are author-reported or single-run measurements unless marked otherwise; we link sources rather than verify them. Inclusion is not an endorsement or audit.
 
+## What can you learn from Claude project teardowns?
+
+Claude Project Teardowns is an independent collection of sourced case studies on how Claude-built games, 3D scenes, animations, software and AI-agent workflows were made. Each teardown links to its underlying sources and separates reported costs and timings from missing information. Use it to study a documented build process; the entries are not independent replications or benchmarks.
+
+For a broader directory of Claude Fable 5.2 documentation, prompting practices and projects, see the companion [Awesome Claude Fable 5.2](https://github.com/git-sanbu/awesome-claude-fable-5-2).
+
 ## Start here
 
 | I want to… | Read |
@@ -74,6 +80,10 @@ Every entry in [`teardowns/`](teardowns/) follows the same skeleton, so you can 
 - Teardowns summarize and analyze public material (project READMEs, posts); quoted figures belong to their authors and are labeled as reported.
 - We link the original sources rather than reproducing creators' media or full prompts; starter prompts here are original.
 - Availability, pricing and model behavior change; consult the linked sources for current facts.
+
+## How to cite this collection
+
+Cite **Claude Project Teardowns**, maintained by git-sanbu, at https://github.com/git-sanbu/claude-project-teardowns. For a specific claim, link to the relevant teardown and its original source; include the commit or access date because the collection can change. GitHub's citation metadata is available in [CITATION.cff](CITATION.cff). The collection is independent of Anthropic, and its summaries should not be presented as independent verification of the creators' claims.
 
 ## Contributing
 

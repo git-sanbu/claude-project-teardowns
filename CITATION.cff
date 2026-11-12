@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this collection, please cite the repository and link to the relevant original sources."
+title: "Claude Project Teardowns: Case Studies and Playbooks for Claude-Built Projects"
+authors:
+  - name: git-sanbu
+repository-code: "https://github.com/git-sanbu/claude-project-teardowns"
+url: "https://github.com/git-sanbu/claude-project-teardowns"
+license: CC-BY-4.0
+abstract: "An independent, source-linked collection of Claude-built project teardowns, agent workflow playbooks, and prompt starters."
